@@ -2,7 +2,7 @@ import React from "react"
 
 export type TTitle = {
     tag: 'h1' | 'h2' | 'h3'
-    text: string
+    text: React.ReactNode
     class?: string
 }
 export default function Title(props: TTitle) {
