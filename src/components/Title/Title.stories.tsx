@@ -12,6 +12,7 @@ export default {
             description: "Specify the tag HTML"
         }
     },
+    tags: ['autodocs'],
     parameters: {
         layout: 'centered',
         docs: {
@@ -20,6 +21,7 @@ export default {
       }
 }as Meta
 
+/**This is my title h1 */
 export const H1 = (args: TTitle) => {
    return <Title {...args}></Title>
 }
@@ -28,6 +30,8 @@ H1.args = {
     tag: 'h1',
     class: ''
 }
+
+/**This is my title h2 */
 export const H2 = (args: TTitle) => {
     return <Title {...args}></Title>
  }
@@ -36,6 +40,8 @@ export const H2 = (args: TTitle) => {
      tag: 'h2',
      class: ''
  }
+ 
+ /**This is my title h3 */
  export const H3 = (args: TTitle) => {
     return <Title {...args}></Title>
  }

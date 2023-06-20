@@ -5,6 +5,7 @@ export type TTitle = {
     text: React.ReactNode
     class?: string
 }
+
 export default function Title(props: TTitle) {
     const Title = React.createElement(
         props.tag, {
