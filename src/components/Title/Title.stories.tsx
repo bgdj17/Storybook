@@ -15,9 +15,6 @@ export default {
     tags: ['autodocs'],
     parameters: {
         layout: 'centered',
-        docs: {
-        
-        }
       }
 }as Meta
 
