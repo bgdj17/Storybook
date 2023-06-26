@@ -20,15 +20,6 @@ const preview: Preview = {
         //wrapLines: false, // default: true
       },
     },
-    previewTabs: {
-      docs: {
-        hidden: false
-      },
-      canvas: {
-        title: 'Story',
-        hidden: false,
-      },
-    },
   },
 };
 

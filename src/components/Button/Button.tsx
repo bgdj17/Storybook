@@ -1,8 +1,8 @@
-export type TButton ={
+export type ButtonProps ={
     class?: string
     children: React.ReactNode
 }
-function Button(props: TButton){
+function Button(props: ButtonProps){
     return(
         <button className={props.class}>
             {props.children}

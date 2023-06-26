@@ -1,12 +1,13 @@
 import { Meta } from "@storybook/react";
-import Button, {TButton} from "./Button";
+import Button, {ButtonProps} from "./Button";
 
 export default {
     title: 'Components/Button',
-    component: Button
+    component: Button,
+    tags: ['autodocs'],
 } as Meta
 
-export function Primary(args: TButton) {
+export function Primary(args: ButtonProps) {
     return <Button {...args}>This is a Button!</Button>;
 }
 
