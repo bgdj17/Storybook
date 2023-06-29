@@ -1,10 +1,11 @@
+import './Button.css'
 export type TButton ={
-    class?: string
+    type: 'btn-primary' |  'btn-secondary'
     children: React.ReactNode
 }
 function Button(props: TButton){
     return(
-        <button className={props.class}>
+        <button className={props.type}>
             {props.children}
         </button>
     )

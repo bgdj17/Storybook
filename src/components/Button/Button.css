@@ -1,0 +1,26 @@
+.btn-primary{
+    background: #F01789;
+    padding: 16px;
+    border-radius: 999px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    
+}
+.btn-primary:hover{
+    background: #D62598;
+}
+.btn-secondary{
+    background: none;
+    padding: 16px;
+    border-radius: 999px;
+    border-color: #F01789;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    
+}
+.btn-secondary:hover{
+    background: #D62598;
+}
