@@ -5,7 +5,7 @@ import Card, {CardProps} from "./Card";
 export default {
     title: 'Components/Card',
     component: Card,
-    tags: ['autodocs'],
+    // tags: ['autodocs'],
     parameters: {
         layout: 'centered',
       }
