@@ -1,6 +1,6 @@
 
 import { Meta } from "@storybook/react";
-import Title, {TTitle}from "./Title";
+import Title, {TitleProps}from "./Title";
 
 export default {
     title: "Components/Title",
@@ -19,7 +19,7 @@ export default {
 }as Meta
 
 /**This is my title h1 */
-export const H1 = (args: TTitle) => {
+export const H1 = (args: TitleProps) => {
    return <Title {...args}></Title>
 }
 H1.args = {
@@ -29,7 +29,7 @@ H1.args = {
 }
 
 /**This is my title h2 */
-export const H2 = (args: TTitle) => {
+export const H2 = (args: TitleProps) => {
     return <Title {...args}></Title>
  }
  H2.args = {
@@ -39,7 +39,7 @@ export const H2 = (args: TTitle) => {
  }
  
  /**This is my title h3 */
- export const H3 = (args: TTitle) => {
+ export const H3 = (args: TitleProps) => {
     return <Title {...args}></Title>
  }
  H3.args = {

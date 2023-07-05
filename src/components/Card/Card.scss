@@ -1,0 +1,56 @@
+.container{
+    
+    .card{
+        position: relative;
+        height: 500px;
+        margin: 50px;
+        box-shadow:5px 5px 20px black ;
+        overflow: hidden;
+        width: 350px;
+        border-radius: 16px;
+        .intro{
+            height: 70px;
+            width: 350px;
+            padding: 6px;
+            box-sizing: border-box;
+            position: absolute;
+            bottom: 0px;
+            background: rgb(27, 27, 27,.8);
+            transition: .5s;
+            color: white;
+            border-radius: 0 0 16px 16px;
+            
+            h1{
+                margin: 10px 20px 0 20px;
+                font-size: 22px;
+            }
+            p{
+                font-size: 18px;
+                margin: 20px;
+                visibility: hidden;
+                opacity: 0;
+            }
+        }
+
+        &:hover{
+            cursor: pointer;
+           .intro{
+                height: 150px;
+                bottom: 0px;
+                background-color: rgb(27, 27, 27,.8);
+                p{
+                    visibility: visible;
+                opacity: 1;
+                }
+            }
+
+            img{
+                transform: scale(1.1) rotate(-3deg);
+            }
+        }
+    }
+    img{
+        height: 500px;
+        width: 350px;
+    }
+}

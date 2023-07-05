@@ -1,5 +1,5 @@
 import { Meta } from "@storybook/react";
-import Button, {TButton} from "./Button";
+import Button, {ButtonProps} from "./Button";
 
 export default {
     title: 'Components/Button',
@@ -10,17 +10,24 @@ export default {
       }
 } as Meta
 
-export function Primary(args: TButton) {
-    return <Button {...args}>This is a Button!</Button>;
+/**This is a Button Primary */
+export function Primary(args: ButtonProps) {
+    return <Button {...args}></Button>;
 }
 
 Primary.args = {
-    type: 'btn-primary'
+    type: 'primary',
+    classButton: '',
+    children: 'Button primary!'
+  
 }
 
-export function Secondary(args: TButton) {
-    return <Button {...args}>This is a Button!</Button>;
+export function Secondary(args: ButtonProps) {
+    return <Button {...args}></Button>;
 }
 Secondary.args={
-    class: 'btn-secondary',
+    type: 'secondary',
+    classButton: '',
+    children: 'Button secondary!'
+
 }

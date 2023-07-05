@@ -55,9 +55,7 @@ function App() {
         <SwiperSlide>
           <img src={images[6]} alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
-         <video autoPlay src=''></video>
-        </SwiperSlide>
+
         
 
         <div className="slider-controler">

@@ -13,15 +13,7 @@ const preview: Preview = {
         htmlWhitespaceSensitivity: 'strict',
       },
     },
-    previewTabs: {
-      docs: {
-        hidden: false
-      },
-      canvas: {
-        title: 'Story',
-        hidden: false,
-      },
-    },
+   
   },
 };
 

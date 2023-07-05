@@ -1,0 +1,25 @@
+.btn {
+    padding: 16px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.primary {
+    border: none;
+    background: #f01789;
+    color: black;
+
+    &:hover {
+        background: #d62598;
+    }
+}
+.secondary {
+    background: none;
+    border-color: #f01789;
+    color: black;
+
+    &:hover {
+        background: #d62598;
+        border: none;
+    }
+}
