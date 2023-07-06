@@ -12,15 +12,18 @@ export default {
 } as Meta
 
 export function Default(args: CardProps) {
-    return (<div style={{display: 'flex'}}>
+    return (
         <Card {...args}></Card>
-        <Card {...args} img={images[6]}></Card>
-    </div>
     )
+    // return (<div style={{display: 'flex'}}>
+    //     <Card {...args}></Card>
+    //     <Card {...args} img={images[6]}></Card>
+    // </div>
+    // )
 }
 
 Default.args = {
-    description: 'Belonging to the Rosaceae family and the Rosa genus, red roses are grown worldwide for their beauty and fragrance.',
+    description: 'Belonging to the Rosaceous family and the Rosa genus, red roses are grown worldwide for their beauty and fragrance.',
     title: 'Red Rose',
     img: images[2]
 }

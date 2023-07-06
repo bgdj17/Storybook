@@ -2,9 +2,6 @@ import type { Preview } from "@storybook/react";
 
 const preview: Preview = {
   parameters: {
-    docs:{
-      controls: {exclude: ['style']},
-    },
     actions: { argTypesRegex: "^on[A-Z].*" },
 
     controls :{ expanded: true },
@@ -15,7 +12,17 @@ const preview: Preview = {
         useTabs: false,
         htmlWhitespaceSensitivity: 'strict',
       },
-    },   
+    },
+    previewTabs: {
+      docs: {
+        hidden: false
+      },
+      canvas: {
+        title: 'Story',
+        hidden: false,
+      },
+    },
+   
   },
 };
 
